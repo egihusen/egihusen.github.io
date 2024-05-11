@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8%;
+  padding-left: 8%;
+  background-color: #191919;
+  border-bottom: 1px solid red;
+}
+
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: o, 5s;
+}
+
+.image {
+  width: 40%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h4 {
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 65px;
+  margin: 20px 0 20px;
+}
+
+.content a {
+  font-size: 20px;
+  background: red;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+  transition: .5s;
+}
+
+.content a:hover {
+  background: transparent;
+  border: 2px solid red;
+}
+
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #191919;
+}
+
+.about-me {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me img {
+  height: auto;
+  width: 430px;
+  border-radius: 10px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border: 2px solid White;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.skill {
+  background: #101010;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 100%;
+  margin-bottom: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #141414;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.card h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.skill {
+  background: #191919;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.skill-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skill-bar p {
+  text-align: left;
+}
+
+.skill-box {
+  text-align: right;
+  width: 100%;
+  background-color: white;
+}
+
+.html {
+  width: 60%;
+  background-color: red;
+}
+
+.css {
+  width: 55%;
+  background-color: red;
+}
+
+.javascript {
+  width: 55%;
+  background-color: red;
+}
+
+.php {
+  width: 55%;
+  background-color: red;
+}
+
+.python {
+  width: 5%;
+  background-color: red;
+}
+
+.mysql {
+  width: 55%;
+  background-color: red;
+}
+
+.figma {
+  width: 55%;
+  background-color: red;
+}
+
+.sketch {
+  width: 55%;
+  background-color: red;
+}
+
+.photoshop {
+  width: 65%;
+  background-color: red;
+}
